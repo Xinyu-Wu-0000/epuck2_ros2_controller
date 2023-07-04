@@ -306,7 +306,7 @@ void epuck2_driver::updateSensorsAndActuators()
 				return; // Wait for the next sensor request
 			}
 		}
-		return;
+		// return;
 		switch (header)
 		{
 		case 0x01: // Camera.
